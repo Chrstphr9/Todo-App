@@ -1,9 +1,11 @@
-import React from 'react'
+import React from "react";
 
 const AddTask = () => {
   return (
-    <div>AddTask</div>
-  )
-}
+    <div>
+      <button className="btn btn-primary w-full">Add New Task</button>
+    </div>
+  );
+};
 
-export default AddTask
+export default AddTask;
